@@ -42,8 +42,6 @@ public class TFIDFSearcher extends Searcher
 			}
 		}
 		
-		//System.out.println(idf);
-		
 		//Calculating IDF
 		//TODO: Workaround after https://github.com/mockito/mockito/issues/1899 is fixed
 		for (String term : idf.keySet()) {
